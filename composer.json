@@ -10,7 +10,10 @@
     "require": {
         "php": "^8.2",
         "laravel/framework": "^11.9",
-        "laravel/tinker": "^2.9"
+        "laravel/tinker": "^2.9",
+        "smartcyberin/install": "dev-main",
+        "smartcyberin/laravel": "dev-main",
+        "smartcyberin/peering": "dev-main"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
@@ -36,15 +39,15 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://SmartCyberIN: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@github.com/SmartCyberIN/install.git"
+            "url": "git@github.com:SmartCyberIN/install.git"
         },
         {
             "type": "vcs",
-            "url": "https://SmartCyberIN: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@github.com/SmartCyberIN/laravel.git"
+            "url": "git@github.com:SmartCyberIN/laravel.git"
         },
         {
             "type": "vcs",
-            "url": "https://SmartCyberIN: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@github.com/SmartCyberIN/peering.git"
+            "url": "git@github.com:SmartCyberIN/peering.git"
         }
     ],
     "scripts": {
@@ -82,6 +85,6 @@
             "php-http/discovery": true
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
